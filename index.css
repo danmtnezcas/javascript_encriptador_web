@@ -12,3 +12,15 @@
 textarea {
     resize: none;
 }
+
+body {
+    background: #F3F5FC;
+}
+
+    .father {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: stretch;
+        align-content: center;
+        padding: 40px;
+    }
