@@ -24,3 +24,27 @@ body {
         align-content: center;
         padding: 40px;
     }
+
+        .header {
+            display: flex;
+            flex-flow: column nowrap;
+            flex: 0 0 200px;
+            height: 48px;
+            align-items:flex-start;
+        }
+
+            .logo {
+                display: flex;
+                width: 120px;
+                flex-flow: column nowrap;
+            }
+
+                a {
+                    display: flex;
+                    flex-flow: column nowrap;
+                }
+
+                    .logo_img {
+                        display: flex;
+                        height: 48px;
+                    }
