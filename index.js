@@ -104,3 +104,8 @@ function decrypt() {
         document.getElementById("button_copy").style.display = "none";
     }
 }
+
+function copy() {
+    output_text.select();
+    document.execCommand("copy");
+}
