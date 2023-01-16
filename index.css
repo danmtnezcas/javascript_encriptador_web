@@ -211,3 +211,16 @@ body {
                     line-height: 19px;
                     cursor: pointer;
                 }
+
+@media all and (min-width: 953px) and (max-width: 1200px){
+    .header {
+        flex: 0 0 120px;
+        height: 48px;
+
+    }
+
+    .rigth_container{
+        flex: 0 0 250px;
+        max-width: 350px;
+    }
+}
