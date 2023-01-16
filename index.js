@@ -109,3 +109,19 @@ function copy() {
     output_text.select();
     document.execCommand("copy");
 }
+
+// Crear variables para enlazar con los elementos de HTML
+var input_text = document.getElementById("input_text");
+var button_encrypt = document.getElementById("button_encrypt");
+var button_decrypt = document.getElementById("button_decrypt");
+var button_copy = document.getElementById("button_copy");
+var output_text = document.getElementById("output_text");
+
+// Ocultar elementos al iniciar
+document.getElementById("output_text").style.display = "none";
+document.getElementById("button_copy").style.display = "none";
+
+// Asiganar funciones a los botones al hacer clic
+button_encrypt.onclick = encrypt;
+button_decrypt.onclick = decrypt;
+button_copy.onclick = copy;
